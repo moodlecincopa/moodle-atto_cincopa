@@ -8,7 +8,7 @@ Use Cincopa to easily add videos, photo galleries, slideshows, music and playlis
 
 Cincopa Atto Editor plugin adds button to your text editor which allows you to insert Cincopa media gallery. It can be used on any post or page on your site.
 
-In order to use this plugin you will need to install Cincopa Media Filter plugin and register at http://cincopa.com
+In order to use this plugin you will need to install Cincopa Media Filter plugin and register at https://cincopa.com
 
 _Demo account_
 

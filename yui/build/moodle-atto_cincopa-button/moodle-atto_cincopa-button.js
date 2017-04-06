@@ -98,7 +98,7 @@ YUI.add('moodle-atto_cincopa-button', function (Y, NAME) {
         _getUrl: function () {
             var width = screen.width - 220;
             var height = screen.height - 220;
-            var url = "http://www.cincopa.com/media-platform/start.aspx";
+            var url = "https://www.cincopa.com/media-platform/start.aspx";
             var dialogue = this.getDialogue({
                 bodyContent: '<iframe width=' + width + ' height=' + height + ' scrolling="yes" src=' + url + ' frameborder="0" allowfullscreen scrolling="no"></iframe>',
                 width: screen.width - 200,
