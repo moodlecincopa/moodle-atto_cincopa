@@ -1,4 +1,5 @@
 <?php
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -13,22 +14,20 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-
 /**
- * Atto text editor integration version file.
+ * TinyMCE Cincopa plugin version details.
  *
- * @package    atto_cincopa
- * @copyright  2016 Cincopa LTD <moodle@cincopa.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   tinymce_cincopa
+ * @copyright Cincopa LTD <moodle@cincopa.com>
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2017110200;       // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires  = 2014111000;       // Requires this Moodle version.
-$plugin->component = 'atto_cincopa';   // Full name of the plugin (used for diagnostics).
-$plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = 'v1.0.2';
+$plugin->version = 2017110200;			// The current plugin version (Date: YYYYMMDDXX).
+$plugin->requires = 2014051200;			// Required Moodle version.
+$plugin->component = 'tinymce_cincopa';		// Full name of the plugin (used for diagnostics).
+$plugin->maturity = MATURITY_STABLE;
+$plugin->release = 'v1.0.3';
 $plugin->dependencies = array(
     'filter_cincopa' => ANY_VERSION
 );

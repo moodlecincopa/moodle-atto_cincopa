@@ -15,11 +15,34 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 /**
- * This file defines the admin settings for this plugin
+ * TinyMCE Cincopa plugin version details.
  *
  * @package   tinymce_cincopa
  * @copyright Cincopa LTD <moodle@cincopa.com>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$description = new lang_string('description', 'tinymce_cincopa');
-$settings->add(new admin_setting_heading('defaultsettings', '', $description));
+defined('MOODLE_INTERNAL') || die();
+
+class tinymce_cincopa extends editor_tinymce_plugin {
+
+    protected $buttons = array('cincopa');
+
+    protected function update_init_params(array &$params, context $context, array $options = null) {
+        global $PAGE, $CFG;
+
+        $PAGE->requires->js(new moodle_url('/lib/editor/tinymce/plugins/cincopa/tinymce/js/jquery.min.js'));
+
+
+        $this->add_js_plugin($params);
+    }
+
+    /**
+     * Get sort order.
+     *
+     * @return 110
+     */
+    protected function get_sort_order() {
+        return 110;
+    }
+
+}
