@@ -1,0 +1,10 @@
+{
+    "name": "moodle-atto_cincopa-button",
+    "builds": {
+        "moodle-atto_cincopa-button": {
+            "jsfiles": [
+                "button.js"
+            ]
+        }
+    }
+}
