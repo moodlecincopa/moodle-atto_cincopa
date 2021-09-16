@@ -24,11 +24,11 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2018041700;       // The current plugin version (Date: YYYYMMDDXX).
+$plugin->version   = 2021091600;       // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2014111000;       // Requires this Moodle version.
 $plugin->component = 'atto_cincopa';   // Full name of the plugin (used for diagnostics).
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = 'v1.0.3';
+$plugin->release   = 'v1.0.4';
 $plugin->dependencies = array(
     'filter_cincopa' => ANY_VERSION
 );
